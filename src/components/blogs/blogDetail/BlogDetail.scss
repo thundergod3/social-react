@@ -1,0 +1,35 @@
+.blog-detail-icon-close-btn {
+	position: absolute !important;
+	left: 90%;
+	top: 6%;
+}
+
+.blog-detail-expand-btn {
+	position: absolute !important;
+	left: 90%;
+}
+
+.blog-detail-container {
+	text-align: center;
+	& .blog-detail-user-image {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		// max-width: 100%;
+		border-radius: 50%;
+	}
+	& .blog-detail-invisible-separator {
+		border: none;
+		margin: 4px;
+	}
+	& .blog-detail-visible-separator {
+		width: 100%;
+		border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+		margin-bottom: 20px;
+	}
+}
+
+.blog-detail-spinner {
+	text-align: center;
+	margin: 50px 0;
+}

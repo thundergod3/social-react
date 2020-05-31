@@ -1,0 +1,53 @@
+.user-profile-paper {
+	padding: 20px !important;
+	& .user-profile-container {
+		& hr {
+			border: none;
+			margin: 0 0 10px 0;
+		}
+		& .user-profile-wrapper {
+			text-align: center;
+			position: relative;
+			& .user-profile-icon-button {
+				position: absolute;
+				top: 80%;
+				left: 70%;
+			}
+			& .user-profile-image {
+				width: 200px;
+				height: 200px;
+				object-fit: cover;
+				max-width: 100%;
+				border-radius: 50%;
+			}
+			& .blog-item-content {
+				padding: 25px;
+				object-fit: cover;
+			}
+		}
+		& .user-profile-detail {
+			text-align: center;
+			& span,
+			svg {
+				vertical-align: middle;
+			}
+			& a {
+				color: #00bcd4;
+			}
+			& p {
+				color: red;
+			}
+			& svg.button {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	& .user-profile-button {
+		text-align: center;
+		& a {
+			margin: 20px 10px;
+		}
+	}
+}

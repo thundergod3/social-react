@@ -1,0 +1,37 @@
+.loading-blog-card {
+	display: flex;
+	margin-bottom: 20px;
+	& .loading-blog-image {
+		min-width: 200px;
+		object-fit: cover;
+	}
+	& .loading-blog-card-content {
+		width: 100%;
+		flex-direction: column;
+		padding: 25px;
+		& .loading-blog-handle {
+			width: 60px;
+			height: 18px;
+			background: #00bcd4;
+			margin-bottom: 7px;
+		}
+		& .loading-blog-date {
+			height: 14px;
+			width: 100px;
+			background: rgba($color: #000000, $alpha: 0.3);
+			margin-bottom: 10px;
+		}
+		& .loading-blog-fullline {
+			height: 15px;
+			width: 90%;
+			background: rgba($color: #000000, $alpha: 0.6);
+			margin-bottom: 10px;
+		}
+		& .loading-blog-halfline {
+			height: 15px;
+			width: 50%;
+			background: rgba($color: #000000, $alpha: 0.6);
+			margin-bottom: 10px;
+		}
+	}
+}

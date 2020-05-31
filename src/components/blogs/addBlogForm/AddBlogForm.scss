@@ -1,0 +1,15 @@
+.add-form-icon-close-btn {
+	position: absolute !important;
+	left: 91%;
+	top: 6%;
+}
+
+.add-form-submit-btn {
+	position: relative;
+	float: right;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+	& .add-form-progress-spinner {
+		position: absolute;
+	}
+}

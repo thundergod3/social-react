@@ -1,0 +1,12 @@
+.blog-item-container {
+	position: relative;
+	display: flex;
+	margin-bottom: 20px;
+	& .blog-item-image {
+		min-width: 200px;
+	}
+	& .blog-item-content {
+		padding: 25px;
+		object-fit: cover;
+	}
+}
